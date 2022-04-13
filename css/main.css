@@ -1,0 +1,49 @@
+span
+{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+    color: red;
+}
+
+div                             /*  tag  */
+{
+    color: red;
+}
+
+.blueDiv                        /*  clasa  */
+{
+    color: blue;
+}
+
+#greenDiv                       /*  id  */
+{
+    color: green;
+}
+
+.Container
+{
+    background-color: rgb(101, 44, 44); 
+    padding: 20px;
+}
+
+.BackgroundText
+{
+    background-color: beige;
+    color: brown;
+}
+
+#Shiny
+{
+    color: rgb(30, 88, 51);
+}
+
+.Blaga
+{
+    background-color: blue;
+}
