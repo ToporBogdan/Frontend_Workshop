@@ -1,4 +1,4 @@
-span
+/* span
 {
     display: block;
     font-size: 2em;
@@ -9,6 +9,28 @@ span
     font-weight: bold;
 
     color: red;
+} */
+body
+{
+    overflow-x: hidden;
+    margin: 0%;
+}
+h1
+{
+    word-wrap: break-word;
+}
+
+.spanCiudat
+{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+    color: red; 
 }
 
 div                             /*  tag  */
@@ -47,3 +69,89 @@ div                             /*  tag  */
 {
     background-color: blue;
 }
+
+.positionDIVS
+{
+    background-color: rebeccapurple;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+
+#relativeDIV
+{
+    position: relative;
+}
+#absoluteDIV
+{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: -1;
+    /* opacity: 0.5; */
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#fixedDIV
+{
+    position: fixed;
+    top: 105px;
+    left: 105px;
+    background-color: blue;
+    z-index: -2;
+}
+#stickyDIV
+{
+    background-color: aquamarine;
+    color: black;
+    width: 1900px;
+    position: sticky;
+    top: 0px;
+}
+
+#displayWrapper
+{
+    background-color: black;
+    color: wheat;
+    width: 900px;
+    height: 300px;
+    display: block;
+}
+
+#displayWrapper span
+{
+    display: block;
+    background-color: blueviolet;
+    margin-bottom: 12px;
+}
+#displayWrapper span:nth-child(2)
+{
+    display: none;
+}
+.boxModel
+{
+    background-color: blue;
+    color: yellow;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid red;
+    display: inline-block;
+    margin: 0%;
+}
+.Aliniere
+{
+    background-color: black;
+    color: aquamarine;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
