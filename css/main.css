@@ -148,9 +148,15 @@ div                             /*  tag  */
 
 }
 
+.ButtonClick
+{
+    cursor: pointer;
+}
 
-
-
+.ButtonClick:hover
+{
+    color: blueviolet;
+}
 
 
 

@@ -61,7 +61,7 @@
     <span class="Container spanCiudat">
       <span class="BackgroundText" id="Shiny"> Barbat </span>
     </span>
-    <!-- <div class="positionDIVS" id="relativeDIV">Relative DIV</div> -->
+    <div class="positionDIVS" id="relativeDIV">Relative DIV</div>
     <div class="positionDIVS" id="absoluteDIV">Absolute DIV</div>
     <div class="positionDIVS" id="fixedDIV">Fixed DIV</div>
     <br />
@@ -78,12 +78,15 @@
 
     <br /><br /><br /><br /><br />
     <h1 class="Aliniere">BOX MODEL:</h1>
-    <div class="boxModel">demo ceva boxbox</div>
-    <div class="boxModel">demo ceva boxbox</div>
-    
+    <div onclick="LeftObjClick()" class="boxModel">left demo ceva boxbox</div>
+    <div class="boxModel">right demo ceva boxbox</div>
 
+    <script defer src="js/main.js"></script>
 
-
-
-    </body>
+    <div class="ButtonClick" onclick="ButtonClick(this)">Button 1</div>
+    <div class="ButtonClick" onclick="ButtonClick(this)">Button 2</div>
+    <div class="ButtonClick" onclick="ButtonClick(this)">Button 3</div>
+    <div class="ButtonClick" onclick="ButtonClick(this)">Button 4</div>
+    <div class="ButtonClick" onclick="ButtonClick(this)">Button 5</div>
+  </body>
 </html>
